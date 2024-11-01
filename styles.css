@@ -1,0 +1,104 @@
+#so-answers-widget {
+    overflow: hidden;
+}
+.so-user-info {
+  line-height: 22px;
+  color: black;
+  font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
+}
+.badge1, .badge2, .badge3 {
+  background-image: url('http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=5');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 6px;
+  height: 11px;
+  overflow: hidden;
+  line-height: inherit;
+  background-position: -40px -1034px;
+  vertical-align: text-bottom;
+  margin: 0 1px 1px 3px;
+}
+.badge2 {
+background-position: -20px -1034px;
+}
+.badge3 {
+background-position: 0px -1034px;
+}
+.badge4 {
+  display: inline-block;
+  width: 9px;
+  height: 17px;
+  overflow: hidden;
+  line-height: 22px;
+  /* vertical-align: text-bottom; */
+  margin: 0 0 0 6px;
+}
+.badgecount {
+  padding-left:1px;
+  color: #808185;
+}
+
+.so-user-info > span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.so-user-info span.reputation-score {
+  font-weight: bold;
+  color: #444;
+  font-size: 120%;
+  margin-right: 2px;
+}
+
+.so-user-info a {
+font-weight: bold;
+text-decoration:none;
+}
+
+.widget-area ul ul li.so-answer {
+    list-style:none;
+    background-image:none;
+    padding: 5px 0;
+    margin-right:8px;
+    margin-bottom:2px;
+}
+.widget-area ul ul li.so-answer:hover {
+    background-image:none;
+}
+
+.so-first-answer {
+    border-top:1px dotted #DDD;
+}
+.so-last-answer {
+    /* border:0px none; */
+}
+.so-answer-votes {
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    font-weight: bold;
+    padding: 3px 3px 4px 3px;
+    width: 20px;
+    height: 18px;
+    margin-right: 8px;
+}
+.answered-accepted {
+    background-color:#008000;
+    color:#EdEdEd;
+}
+.so-answer-link {
+    width:100%;
+    display:block;
+}
+.so-answer-date {
+    float: right;
+    position:relative;
+    top:-1px;
+    font-size: 85%;
+    font-style: italic;
+    margin-right:4px;
+}
